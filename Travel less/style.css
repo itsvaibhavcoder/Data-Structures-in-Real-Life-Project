@@ -1,0 +1,153 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    overflow: hidden;
+}
+
+#container, #container2 {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar{
+    font-size: 30px;
+    color: black;
+    background-color: bisque;
+   
+}
+#mynetwork {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+}
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#mynetwork2{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+#generate-graph{
+    margin:auto;
+    display:block;
+    border-radius: 10px;
+    background-color: green;
+    padding: 8px;
+    font: bold;
+}
+
+
+#solve{
+    margin:auto;
+    display:block;
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    font: bold;
+    /* font-size: 20px; */
+    color:black;
+    background-color: rgb(211, 81, 81);
+}
+
+.New_network{
+    display: flex;
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    .navbar {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    #container {
+        padding: 10px;
+    }
+    #mynetwork,
+    #mynetwork2 {
+        height: 200px;
+    }
+    #temptext,
+    #temptext2 {
+        font-size: 16px;
+    }
+    .New_network {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+/* Tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+    .navbar {
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #container {
+        padding: 15px;
+    }
+    #mynetwork,
+    #mynetwork2 {
+        height: 300px;
+    }
+    #temptext,
+    #temptext2 {
+        font-size: 18px;
+    }
+    .New_network {
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+/* Larger desktops */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+    .navbar {
+        padding: 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+    #container {
+        padding: 20px;
+    }
+    #mynetwork,
+    #mynetwork2 {
+        height: 400px;
+    }
+    #temptext,
+    #temptext2 {
+        font-size: 20px;
+    }
+    .New_network {
+        padding: 20px;
+        text-align: center;
+    }
+}
